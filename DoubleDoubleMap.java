@@ -6,7 +6,7 @@ public class DoubleDoubleMap
     public static final int GROWTH_RATE = 2;
 
     protected DoubleDoubleNode[] hashtable;
-    protected int size;//use size -1 for % in hashing functions
+    protected int size;
     protected int used;
 
     public DoubleDoubleMap(int numItems)

@@ -1,10 +1,3 @@
-/*
- * Dictionary.m
- *
- * This code was created by the Paradigm Research
- * Corporate Education Department
- * Copyright 1995, All Rights Reserved, Paradigm Research, Inc.
- */
 
 #include "Dictionary.h"
 #include "libcgi.h"

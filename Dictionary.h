@@ -1,15 +1,5 @@
-/*
- * Dictionary.h
- *
- * This code was created by the Paradigm Research
- * Corporate Education Department
- * Copyright 1995, All Rights Reserved, Paradigm Research, Inc.
- */
 
 /* All indices are from 0 */
-
-/* Description format is cgi encoding: key=value&key2=&key3=value3\0 */
-
 #ifndef DICTIONARY_H
 #define DICTIONARY_H
 
@@ -32,7 +22,7 @@ struct listnode{
 @interface Dictionary:Object
 {
 	struct listnode **hashtable;
-	int size;//use size -1 for % in hashing functions
+	int size;
 	int used;
 
 }

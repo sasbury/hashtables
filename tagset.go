@@ -1,6 +1,4 @@
 
-import ()
-
 const DEF_CAPACITY = 21
 const GROW_PERCENTAGE = 0.75
 const GROWTH_RATE = 2
